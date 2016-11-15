@@ -24,3 +24,12 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:25.0.0'
 }
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+
+    dataBinding {
+        enabled = true
+    }
+}
